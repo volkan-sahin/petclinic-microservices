@@ -7,4 +7,8 @@
   
   - name: show results
     debug: msg="{{ item.stdout }}"
+<<<<<<< HEAD
     with_items: "{{ output.results }}"
+=======
+    with_items: "{{ output.results }}"
+>>>>>>> 148e680 (adding missing file)
